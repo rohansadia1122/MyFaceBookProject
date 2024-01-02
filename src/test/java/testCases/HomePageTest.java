@@ -14,8 +14,9 @@ public class HomePageTest extends BaseTest {
 		obj.setupDriver();
 		
 		obj1.logIn("kamrul@gmail.com", "dflsfslf");
-		obj.quitDriver();
 		System.out.println("Driver Quite");
+		obj.quitDriver();
+		
 
 		
 	}
